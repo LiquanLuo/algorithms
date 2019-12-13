@@ -64,15 +64,12 @@ public:
             init_set.pop_back();
         }
     }
-        
-        
+    
 };
 
 void print(vector<vector<int>> v){
-
 	cout << "size of v is " << v.size() <<endl;
 	for(auto i: v){
-
 		cout << "[ " ;
 		for(auto j:i){
 			cout << j;
@@ -80,7 +77,6 @@ void print(vector<vector<int>> v){
 		cout << " ]";
 	}
 	cout << endl;
-
 }
 
 int main()
