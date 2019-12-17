@@ -1,5 +1,6 @@
 /*
 
+28. Implement strStr()
 Implement strStr().
 
 Return the index of the first occurrence of needle in haystack,
