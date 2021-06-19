@@ -20,6 +20,10 @@ Output:
 
 */
 
+// 1.definition: find all the permutations and add them into results
+// 2.n -> n - 1: for permutation of n numbers, add any un-visited number into current permutation, then find permutaiton of n-1 numbers
+// 3. exit: if current permutation contains all the numbers, add it to results
+
 
 class Solution {
 public:
